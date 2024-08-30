@@ -20,10 +20,10 @@ Arena-Rosnav is only intended to be run on Ubuntu 22.04. If you are intending to
 With the activated environment, test your installation by running the command
 
 ```sh
-roslaunch arena_bringup start_arena.launch simulator:=gazebo
+ros2 launch arena_bringup start_arena.launch.py
 ```
 
-This should open gazebo and rviz successfully.
+This should open gazebo successfully.
 
 # Troubleshooting
 If you encounter errors during the build process due to missing packages, add them
